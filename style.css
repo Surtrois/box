@@ -1,0 +1,50 @@
+.back{
+    width: 900px; 
+    aspect-ratio: 1;
+    background-color: aqua;
+    position: relative;
+}
+
+.box1{
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: blue;
+    position: absolute;
+}
+
+.box2{
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: rgba(11, 11, 143, 0.952);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.box3{
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: rgb(23, 110, 160);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box4{
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: rgb(17, 20, 216);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.box5{
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: rgb(47, 17, 116);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
